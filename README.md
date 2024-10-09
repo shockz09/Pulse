@@ -199,17 +199,15 @@ Pulse revolutionizes health goal achievement by combining wearable technology, b
 
 ## 🗺 Roadmap
 
-### Q2 2024
+### Q4 2024
 - Core Platform Launch
 - Basic Goal Setting
 - CUDIS Integration
-
-### Q3 2024
 - Food Tracking
 - Enhanced Rewards
 - Mobile App Beta
 
-### Q4 2024
+### Q1 2025
 - Social Features
 - Advanced Analytics
 - Global Expansion

@@ -15,7 +15,7 @@ export function Leaderboard() {
   return (
     <Card className="bg-gray-800 text-white">
       <CardHeader>
-        <CardTitle>Leaderboard</CardTitle>
+        <CardTitle className="text-yellow-500">Leaderboard</CardTitle>
         <CardDescription>See how you stack up against other users</CardDescription>
       </CardHeader>
       <CardContent>

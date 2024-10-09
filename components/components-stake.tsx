@@ -40,7 +40,7 @@ export function Stake({ isConnected }: { isConnected: boolean }) {
     return (
       <Card className="bg-gray-800 text-white">
         <CardHeader>
-          <CardTitle>Wallet Not Connected</CardTitle>
+          <CardTitle className='text-yellow-500'>Wallet Not Connected</CardTitle>
           <CardDescription>Please connect your wallet to access staking features</CardDescription>
         </CardHeader>
       </Card>
@@ -50,7 +50,7 @@ export function Stake({ isConnected }: { isConnected: boolean }) {
   return (
     <Card className="bg-gray-800 text-white">
       <CardHeader>
-        <CardTitle>Stake Crypto</CardTitle>
+        <CardTitle className='text-yellow-500'>Stake Crypto [COMING SOON] </CardTitle>
         <CardDescription>Stake your crypto for specific health goals</CardDescription>
       </CardHeader>
       <CardContent>
@@ -90,7 +90,9 @@ export function Stake({ isConnected }: { isConnected: boolean }) {
         </div>
       </CardContent>
       <CardFooter className="flex justify-end">
-        <Button onClick={handleStake} className="bg-black text-white" disabled={!selectedGoal || !amount}>Stake</Button>
+        <Button onClick={handleStake} className="bg-black text-white" disabled>Stake</Button>
+      
+    
       </CardFooter>
     </Card>
   )

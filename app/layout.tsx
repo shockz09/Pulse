@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
+import { Providers } from './providers';
+const GOOGLE_CLIENT_ID = "1082887278888-55555555555555555555555555555555.apps.googleusercontent.com"
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -24,12 +25,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+   
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        
+        <Providers>{children}</Providers>
+        
       </body>
+     
     </html>
   );
 }

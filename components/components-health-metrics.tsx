@@ -49,12 +49,12 @@ export function HealthMetrics() {
   return (
     <div className="space-y-4">
       <div className="flex items-center space-x-4">
-        <Label htmlFor="timeframe">View:</Label>
+        <Label className='text-xl text-yellow-500' htmlFor="timeframe">View:</Label>
         <Select value={timeframe} onValueChange={setTimeframe}>
-          <SelectTrigger id="timeframe" className="bg-gray-700 w-[180px]">
+          <SelectTrigger id="timeframe" className="bg-gray-700  text-white w-[180px]">
             <SelectValue placeholder="Select timeframe" />
           </SelectTrigger>
-          <SelectContent position="popper" className="bg-gray-700">
+          <SelectContent position="popper" className="bg-gray-700 text-white">
             <SelectItem value="daily">Daily</SelectItem>
             <SelectItem value="weekly">Weekly</SelectItem>
             <SelectItem value="monthly">Monthly</SelectItem>

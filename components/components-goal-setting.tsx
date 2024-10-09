@@ -27,7 +27,7 @@ export function GoalSetting() {
   return (
     <Card className="bg-gray-800 text-white">
       <CardHeader>
-        <CardTitle>Set New Health Goal</CardTitle>
+        <CardTitle className='text-yellow-500'>Set New Health Goal</CardTitle>
         <CardDescription>Create a new health goal to track your progress</CardDescription>
       </CardHeader>
       <CardContent>

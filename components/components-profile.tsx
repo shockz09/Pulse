@@ -32,6 +32,7 @@ export function Profile({ onClose }: ProfileProps) {
         <CardHeader>
           <CardTitle>User Profile</CardTitle>
           <CardDescription>Manage your account and balance</CardDescription>
+          <CardDescription>On ramp and Off ramp with Mercuryo</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
