@@ -38,12 +38,12 @@ Pulse revolutionizes health goal achievement by combining wearable technology, b
   - Achievement milestone bonuses
   - Early bird staking rewards
 
-### 🥗 Smart Food Order Tracking
-- **Order Monitoring**
-  - Integration with major food delivery apps
-  - Real-time order tracking
+### 🥗 Smart Food  Tracking
+- **Food Monitoring**
+  - Integration with Myfitnesspal
+  - Real-time eating habits tracking
   - Caloric intake estimation
-  - Spending pattern analysis
+  - pattern analysis
 
 - **Dietary Goal Setting**
   - Weekly order limits
